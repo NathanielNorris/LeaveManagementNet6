@@ -4,8 +4,9 @@ using System;
 
 namespace LeaveManagement.Web.Data.Migrations
 {
-    public partial class CreateIdentitySchema : Migration
+    public partial class CreateIdentitySchema : Migration 
     {
+        //scaffolding certain tables insdie of the database. migration builder is the object and it will create a table named aspnetroles. the table is a string and it shoul dnot be nulable. It create a lot of tables to facillitate login. 
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
